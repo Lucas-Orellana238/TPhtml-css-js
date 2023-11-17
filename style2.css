@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(24, 28, 48);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+header {
+    background: url(imagenes/codigo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 55px;
+    text-shadow: 5px 5px black;
+    color: white;
+}
+.navegacion {
+    display: flex;
+    justify-content: center;
+}
+.botonNav {
+    box-shadow: 2px 5px #678983;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E6DDC4;
+    color: #181D31;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.historia1{
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.textoHis1{
+    width: 60%;
+    color: white;
+    font-size: 16px;
+}
+.historia2{
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.textoHis2{
+    width: 50%;
+    color: white;
+    font-size: 16px;
+}
+.historia3{
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.textoHis3{
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.secVideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+h2 {
+    font-size: 40px;
+    color: #678983;
+}
+footer{
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.divFooter{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgFooter{
+    height: 80px;
+}
+h3{
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;
+}
